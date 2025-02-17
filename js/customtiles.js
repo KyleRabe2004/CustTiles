@@ -52,10 +52,10 @@ fetch('./data/TimeZones.geojson')
                 layer.on('mouseover', () => {
                     timezoneGroups[tz].forEach(l => {
                         l.setStyle({
-                            color: '#39ff14', 
+                            color: '#4D4DFF', 
                             weight: 2,
                             fillOpacity: 0.4, 
-                            fillColor: '#39ff14'
+                            fillColor: '#4D4DFF'
                         });
                     });
                     info.update(feature.properties);
